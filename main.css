@@ -1,0 +1,50 @@
+body { font: normal 13px tahoma; color:#333; }
+
+.month { float: left; padding: 10px 5px 10px 20px; }
+.hdr span { font-size: 18px; font-weight: bold; color: #fff; margin: 8px 0px 0px 86px; display: block;  *width: 198px;}
+.cal-content { border: 2px solid #E4E4E4; border-radius: 4px; margin: -14px 0px 0px 2px; width: 289px; height: 248px; }
+.cal-tbl { margin: 20px 0px 0px 4px; padding: 4px; border-collapse: collapse; }
+.cal-tbl th,td { border: 1px solid #E4E4E4; }
+.cal-tbl td { text-align: center; color: #606060; }
+.cal-tbl td.wkend { background-color: #EFF1F2; }
+
+.sball {
+    background: #4AA3E2;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-right: 3px solid #fff;
+    color: #fff;
+    padding: 13px 7px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    text-align: center;
+    width: 25px;
+    font-weight: bold;
+}
+
+.hdr {
+    background: #156EAD;
+    background-image: linear-gradient(#4AA3E2, #156EAD);
+    border: 1px solid #B8C5D1;
+    border-radius: 100px;
+    height: 40px;
+    padding: 0px 0px;
+    position: relative;
+
+}
+.blue {background-color: #6DB3F9 !important; color: #fff !important;}
+.red {background-color:  #E52942 !important; color: #fff !important;}
+.grad {
+    color: #fff !important;
+    background: -webkit-linear-gradient(#6DB3F9, #E52942); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6DB3F9, #E52942); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6DB3F9, #E52942); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6DB3F9, #E52942); /* Standard syntax (must be last) */
+}
+
+/*hack*/
+.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.clearfix{display:block;}
+html[xmlns] .clearfix{display:block;}
+* html .clearfix{height:1%;}
